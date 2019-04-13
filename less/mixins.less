@@ -1,1 +1,19 @@
 // Mixins Here
+
+// Border styling 
+.border-styling {
+    border-bottom: solid 2px @sea-shell;
+}
+
+
+
+
+// parametric mixin for button styling - uses three parameters
+.btn-mixin(@bgcolor;
+@color;
+
+@font-size) {
+    background-color: @bgcolor;
+    color: @color;
+    font-size: @font-size;
+}
