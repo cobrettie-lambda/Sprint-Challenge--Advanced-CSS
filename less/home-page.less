@@ -135,6 +135,23 @@
 
         transition-duration: .4s;
       }
+
+      a {
+        text-decoration: none;
+
+        // Use of parametric mixin
+        .btn-mixin(@ebony-clay;
+        #fff;
+        1.95rem);
+        // end parametric mixin
+      }
+
+      a:hover {
+        text-decoration: none;
+        .btn-mixin(#fff;
+        @ebony-clay;
+        1.95rem);
+      }
     }
 
     .walk-img {
