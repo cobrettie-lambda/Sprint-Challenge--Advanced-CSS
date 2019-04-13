@@ -175,6 +175,8 @@ p {
   background-color: #F6F6F6;
   border-bottom: solid 2px #F1F1F1;
   padding: 10px 0 15px 0;
+  position: fixed;
+  top: 0;
 }
 .nav-container h1 {
   font-size: 4rem;
@@ -206,6 +208,9 @@ footer {
   footer {
     margin: 0 0 5px 0;
   }
+}
+.home .intro {
+  margin-top: 111px;
 }
 .home .intro h2 {
   padding: 15px;
